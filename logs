@@ -1,0 +1,1517 @@
+[info] 2022-01-24 17:44:52 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:32:13
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 17:44:52 => token deleted 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:79:24
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 17:45:52 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:32:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 17:46:53 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:32:13
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 17:47:37 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 17:47:54 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:32:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 17:48:19 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 17:48:49 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 17:48:55 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:32:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 17:49:20 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 17:49:42 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 17:49:55 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:32:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 17:50:56 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:32:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 17:51:07 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 17:51:20 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 17:52:15 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 17:52:25 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 17:52:28 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 17:52:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 17:52:52 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 17:52:56 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 17:53:15 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 17:53:18 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 17:53:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 17:53:55 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 17:54:15 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 17:54:41 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 17:54:55 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 17:55:07 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 17:55:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 17:56:13 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 17:56:34 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 17:56:45 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 17:57:04 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 17:57:14 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 17:57:25 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 17:57:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 17:58:46 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 17:58:51 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 17:59:51 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:00:52 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:01:52 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:02:53 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:03:54 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:04:55 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:05:56 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:06:57 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:07:58 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:08:59 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:09:20 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:09:59 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:11:00 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:12:01 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:13:02 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:14:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:16:32 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 18:16:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:18:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:20:58 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 18:21:07 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 18:21:20 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 18:21:24 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 18:21:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:21:56 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 18:23:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:24:15 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[error] 2022-01-24 18:24:31 => Error: Illegal arguments: undefined, string
+    at _async (C:\workspace\api-server\node_modules\bcryptjs\dist\bcrypt.js:286:46)
+    at C:\workspace\api-server\node_modules\bcryptjs\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.compare (C:\workspace\api-server\node_modules\bcryptjs\dist\bcrypt.js:306:20)
+    at userLogin (C:\workspace\api-server\models\authModel.js:16:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\workspace\api-server\controllers\authController.js:12:22
+[info] 2022-01-24 18:25:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:26:40 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[error] 2022-01-24 18:26:46 => Error: Illegal arguments: undefined, string
+    at _async (C:\workspace\api-server\node_modules\bcryptjs\dist\bcrypt.js:286:46)
+    at C:\workspace\api-server\node_modules\bcryptjs\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.compare (C:\workspace\api-server\node_modules\bcryptjs\dist\bcrypt.js:306:20)
+    at userLogin (C:\workspace\api-server\models\authModel.js:16:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\workspace\api-server\controllers\authController.js:12:22
+[error] 2022-01-24 18:26:48 => Error: Illegal arguments: undefined, string
+    at _async (C:\workspace\api-server\node_modules\bcryptjs\dist\bcrypt.js:286:46)
+    at C:\workspace\api-server\node_modules\bcryptjs\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.compare (C:\workspace\api-server\node_modules\bcryptjs\dist\bcrypt.js:306:20)
+    at userLogin (C:\workspace\api-server\models\authModel.js:16:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\workspace\api-server\controllers\authController.js:12:22
+[info] 2022-01-24 18:27:33 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[error] 2022-01-24 18:27:36 => Error: Illegal arguments: undefined, string
+    at _async (C:\workspace\api-server\node_modules\bcryptjs\dist\bcrypt.js:286:46)
+    at C:\workspace\api-server\node_modules\bcryptjs\dist\bcrypt.js:307:17
+    at new Promise (<anonymous>)
+    at Object.bcrypt.compare (C:\workspace\api-server\node_modules\bcryptjs\dist\bcrypt.js:306:20)
+    at userLogin (C:\workspace\api-server\models\authModel.js:16:27)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\workspace\api-server\controllers\authController.js:12:22
+[info] 2022-01-24 18:27:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:28:16 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 18:28:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:29:00 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 18:29:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:30:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:31:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:33:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:35:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:37:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:38:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:40:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:42:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:44:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:46:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:48:29 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 18:48:40 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:32:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-24 18:48:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[error] 2022-01-24 18:49:32 => Error: Not Found - /api/v1/test
+    at notFound (C:\workspace\api-server\middleware\errorMiddleware.js:5:19)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\workspace\api-server\node_modules\express\lib\router\index.js:317:13)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\workspace\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:275:10)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:635:15
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:260:14)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:14:9
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[error] 2022-01-24 18:49:33 => Error: Not Found - /api/v1/test
+    at notFound (C:\workspace\api-server\middleware\errorMiddleware.js:5:19)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\workspace\api-server\node_modules\express\lib\router\index.js:317:13)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\workspace\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:275:10)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:635:15
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:260:14)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:14:9
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:49:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:51:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:53:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:55:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:57:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 18:59:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 19:01:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-24 19:03:50 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-27 19:37:01 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:38:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-27 19:37:11 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:38:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-01-27 19:37:21 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-27 19:37:39 => Email already exist 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at userRegister (C:\workspace\api-server\models\authModel.js:44:16)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\workspace\api-server\controllers\authController.js:42:20
+[info] 2022-01-27 19:37:40 => Email already exist 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at userRegister (C:\workspace\api-server\models\authModel.js:44:16)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\workspace\api-server\controllers\authController.js:42:20
+[info] 2022-01-27 19:39:28 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-27 19:40:31 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-27 19:40:31 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-27 19:40:31 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-27 19:40:31 => token deleted 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:79:24
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-27 19:41:32 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-27 19:42:32 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-01-27 19:43:30 => Token expired 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at C:\workspace\api-server\middleware\authMiddleware.js:32:24
+    at asyncUtilWrap (C:\workspace\api-server\node_modules\express-async-handler\index.js:3:20)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\route.js:137:13)
+    at C:\workspace\api-server\middleware\tokenMiddleware.js:33:13
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+[info] 2022-08-05 14:08:33 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:36:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-08-05 14:08:56 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:36:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[info] 2022-08-05 14:09:01 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:36:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[error] 2022-08-05 14:09:13 => Error: Not Found - /favicon.ico
+    at notFound (C:\workspace\api-server\middleware\errorMiddleware.js:5:19)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\workspace\api-server\node_modules\express\lib\router\index.js:317:13)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\workspace\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (C:\workspace\api-server\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\workspace\api-server\node_modules\express\lib\router\index.js:317:13)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\workspace\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\workspace\api-server\node_modules\cors\lib\index.js:188:7)
+    at C:\workspace\api-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\workspace\api-server\node_modules\cors\lib\index.js:214:15)
+    at C:\workspace\api-server\node_modules\cors\lib\index.js:219:13
+[error] 2022-08-05 14:09:19 => Error: Not Found - /info
+    at notFound (C:\workspace\api-server\middleware\errorMiddleware.js:5:19)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\workspace\api-server\node_modules\express\lib\router\index.js:317:13)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\workspace\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (C:\workspace\api-server\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\workspace\api-server\node_modules\express\lib\router\index.js:317:13)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\workspace\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\workspace\api-server\node_modules\cors\lib\index.js:188:7)
+    at C:\workspace\api-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\workspace\api-server\node_modules\cors\lib\index.js:214:15)
+    at C:\workspace\api-server\node_modules\cors\lib\index.js:219:13
+[info] 2022-08-05 14:09:45 => Server running in development on port 7777 	 
+    at Logger.info (C:\workspace\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (C:\workspace\api-server\server.js:36:25)
+    at Module._compile (internal/modules/cjs/loader.js:1068:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1097:10)
+    at Module.load (internal/modules/cjs/loader.js:933:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:774:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+[error] 2022-08-05 14:09:52 => Error: Not Found - /user
+    at notFound (C:\workspace\api-server\middleware\errorMiddleware.js:5:19)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\workspace\api-server\node_modules\express\lib\router\index.js:317:13)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\workspace\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (C:\workspace\api-server\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\workspace\api-server\node_modules\express\lib\router\index.js:317:13)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\workspace\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\workspace\api-server\node_modules\cors\lib\index.js:188:7)
+    at C:\workspace\api-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\workspace\api-server\node_modules\cors\lib\index.js:214:15)
+    at C:\workspace\api-server\node_modules\cors\lib\index.js:219:13
+[error] 2022-08-05 14:10:20 => Error: Not Found - /auth/login
+    at notFound (C:\workspace\api-server\middleware\errorMiddleware.js:5:19)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\workspace\api-server\node_modules\express\lib\router\index.js:317:13)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\workspace\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (C:\workspace\api-server\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\workspace\api-server\node_modules\express\lib\router\index.js:317:13)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\workspace\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\workspace\api-server\node_modules\cors\lib\index.js:188:7)
+    at C:\workspace\api-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\workspace\api-server\node_modules\cors\lib\index.js:214:15)
+    at C:\workspace\api-server\node_modules\cors\lib\index.js:219:13
+[error] 2022-08-05 14:11:23 => Error: Not Found - /auth/login
+    at notFound (C:\workspace\api-server\middleware\errorMiddleware.js:5:19)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\workspace\api-server\node_modules\express\lib\router\index.js:317:13)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\workspace\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (C:\workspace\api-server\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\workspace\api-server\node_modules\express\lib\router\index.js:317:13)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\workspace\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\workspace\api-server\node_modules\cors\lib\index.js:188:7)
+    at C:\workspace\api-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\workspace\api-server\node_modules\cors\lib\index.js:214:15)
+    at C:\workspace\api-server\node_modules\cors\lib\index.js:219:13
+[error] 2022-08-05 14:11:29 => Error: Not Found - /login
+    at notFound (C:\workspace\api-server\middleware\errorMiddleware.js:5:19)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\workspace\api-server\node_modules\express\lib\router\index.js:317:13)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\workspace\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (C:\workspace\api-server\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\workspace\api-server\node_modules\express\lib\router\index.js:317:13)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\workspace\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\workspace\api-server\node_modules\cors\lib\index.js:188:7)
+    at C:\workspace\api-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\workspace\api-server\node_modules\cors\lib\index.js:214:15)
+    at C:\workspace\api-server\node_modules\cors\lib\index.js:219:13
+[error] 2022-08-05 14:11:35 => Error: Not Found - /auth
+    at notFound (C:\workspace\api-server\middleware\errorMiddleware.js:5:19)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\workspace\api-server\node_modules\express\lib\router\index.js:317:13)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\workspace\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (C:\workspace\api-server\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\workspace\api-server\node_modules\express\lib\router\index.js:317:13)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\workspace\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\workspace\api-server\node_modules\cors\lib\index.js:188:7)
+    at C:\workspace\api-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\workspace\api-server\node_modules\cors\lib\index.js:214:15)
+    at C:\workspace\api-server\node_modules\cors\lib\index.js:219:13
+[error] 2022-08-05 14:11:49 => Error: Not Found - /auth
+    at notFound (C:\workspace\api-server\middleware\errorMiddleware.js:5:19)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\workspace\api-server\node_modules\express\lib\router\index.js:317:13)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\workspace\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (C:\workspace\api-server\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\workspace\api-server\node_modules\express\lib\router\index.js:317:13)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\workspace\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\workspace\api-server\node_modules\cors\lib\index.js:188:7)
+    at C:\workspace\api-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\workspace\api-server\node_modules\cors\lib\index.js:214:15)
+    at C:\workspace\api-server\node_modules\cors\lib\index.js:219:13
+[error] 2022-08-05 14:12:01 => Error: Not Found - /user
+    at notFound (C:\workspace\api-server\middleware\errorMiddleware.js:5:19)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\workspace\api-server\node_modules\express\lib\router\index.js:317:13)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\workspace\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (C:\workspace\api-server\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\workspace\api-server\node_modules\express\lib\router\index.js:317:13)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\workspace\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\workspace\api-server\node_modules\cors\lib\index.js:188:7)
+    at C:\workspace\api-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\workspace\api-server\node_modules\cors\lib\index.js:214:15)
+    at C:\workspace\api-server\node_modules\cors\lib\index.js:219:13
+[error] 2022-08-05 14:12:12 => Error: Not Found - /auth
+    at notFound (C:\workspace\api-server\middleware\errorMiddleware.js:5:19)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\workspace\api-server\node_modules\express\lib\router\index.js:317:13)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\workspace\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (C:\workspace\api-server\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\workspace\api-server\node_modules\express\lib\router\index.js:317:13)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\workspace\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\workspace\api-server\node_modules\cors\lib\index.js:188:7)
+    at C:\workspace\api-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\workspace\api-server\node_modules\cors\lib\index.js:214:15)
+    at C:\workspace\api-server\node_modules\cors\lib\index.js:219:13
+[error] 2022-08-05 14:16:23 => Error: Not Found - /auth
+    at notFound (C:\workspace\api-server\middleware\errorMiddleware.js:5:19)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\workspace\api-server\node_modules\express\lib\router\index.js:317:13)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\workspace\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (C:\workspace\api-server\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\workspace\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\workspace\api-server\node_modules\express\lib\router\index.js:317:13)
+    at C:\workspace\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\workspace\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\workspace\api-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\workspace\api-server\node_modules\cors\lib\index.js:188:7)
+    at C:\workspace\api-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\workspace\api-server\node_modules\cors\lib\index.js:214:15)
+    at C:\workspace\api-server\node_modules\cors\lib\index.js:219:13
+[info] 2023-08-18 14:02:46 => Server running in development on port 7777 	 
+    at Logger.info (E:\Projects\Nodejs Projects\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (E:\Projects\Nodejs Projects\api-server\server.js:36:25)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[info] 2023-08-18 14:03:15 => Server running in development on port 7777 	 
+    at Logger.info (E:\Projects\Nodejs Projects\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (E:\Projects\Nodejs Projects\api-server\server.js:36:25)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[info] 2023-08-18 14:04:40 => Server running in development on port 7777 	 
+    at Logger.info (E:\Projects\Nodejs Projects\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (E:\Projects\Nodejs Projects\api-server\server.js:36:25)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[info] 2023-08-18 16:46:16 => Server running in undefined on port 5000 	 
+    at Logger.info (E:\Projects\Nodejs Projects\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (E:\Projects\Nodejs Projects\api-server\server.js:43:10)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[info] 2023-08-18 16:46:24 => Server running in undefined on port 5000 	 
+    at Logger.info (E:\Projects\Nodejs Projects\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (E:\Projects\Nodejs Projects\api-server\server.js:41:10)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[info] 2023-08-18 16:48:02 => Server running in undefined on port 5000 	 
+    at Logger.info (E:\Projects\Nodejs Projects\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (E:\Projects\Nodejs Projects\api-server\server.js:41:10)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[info] 2023-08-18 16:49:33 => Server running in development on port 7777 	 
+    at Logger.info (E:\Projects\Nodejs Projects\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (E:\Projects\Nodejs Projects\api-server\server.js:41:10)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[info] 2023-08-18 16:50:48 => Server running in development on port 7777 	 
+    at Logger.info (E:\Projects\Nodejs Projects\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (E:\Projects\Nodejs Projects\api-server\server.js:41:10)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[info] 2023-08-18 16:51:13 => Server running in development on port 7777 	 
+    at Logger.info (E:\Projects\Nodejs Projects\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (E:\Projects\Nodejs Projects\api-server\server.js:41:10)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[info] 2023-08-18 16:51:26 => Server running in development on port 7777 	 
+    at Logger.info (E:\Projects\Nodejs Projects\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (E:\Projects\Nodejs Projects\api-server\server.js:41:10)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[info] 2023-08-18 16:52:33 => Server running in development on port 7777 	 
+    at Logger.info (E:\Projects\Nodejs Projects\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (E:\Projects\Nodejs Projects\api-server\server.js:41:10)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[info] 2023-08-18 16:53:00 => Server running in development on port 7777 	 
+    at Logger.info (E:\Projects\Nodejs Projects\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (E:\Projects\Nodejs Projects\api-server\server.js:41:10)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[info] 2023-08-18 16:53:13 => Server running in development on port 7777 	 
+    at Logger.info (E:\Projects\Nodejs Projects\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (E:\Projects\Nodejs Projects\api-server\server.js:41:10)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[info] 2023-08-18 16:53:34 => Server running in development on port 7777 	 
+    at Logger.info (E:\Projects\Nodejs Projects\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (E:\Projects\Nodejs Projects\api-server\server.js:41:10)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[info] 2023-08-18 16:54:16 => Server running in development on port 7777 	 
+    at Logger.info (E:\Projects\Nodejs Projects\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (E:\Projects\Nodejs Projects\api-server\server.js:41:10)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[info] 2023-08-18 16:55:50 => Server running in development on port 7777 	 
+    at Logger.info (E:\Projects\Nodejs Projects\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (E:\Projects\Nodejs Projects\api-server\server.js:49:10)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[info] 2023-08-18 17:06:25 => Server running in development on port 7777 	 
+    at Logger.info (E:\Projects\Nodejs Projects\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (E:\Projects\Nodejs Projects\api-server\server.js:49:10)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[info] 2023-08-18 17:07:04 => Server running in development on port 7777 	 
+    at Logger.info (E:\Projects\Nodejs Projects\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (E:\Projects\Nodejs Projects\api-server\server.js:49:10)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 2023-08-18 17:07:20 => Error: Not Found - /favicon.ico
+    at notFound (E:\Projects\Nodejs Projects\api-server\middleware\errorMiddleware.js:4:17)
+    at Layer.handle [as handle_request] (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:317:13)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (E:\Projects\Nodejs Projects\api-server\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:317:13)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:188:7)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:214:15)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:219:13
+[error] 2023-08-18 17:07:30 => Error: Not Found - /auth
+    at notFound (E:\Projects\Nodejs Projects\api-server\middleware\errorMiddleware.js:4:17)
+    at Layer.handle [as handle_request] (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:317:13)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (E:\Projects\Nodejs Projects\api-server\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:317:13)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:188:7)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:214:15)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:219:13
+[error] 2023-08-18 17:08:36 => Error: Not Found - /user
+    at notFound (E:\Projects\Nodejs Projects\api-server\middleware\errorMiddleware.js:4:17)
+    at Layer.handle [as handle_request] (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:317:13)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (E:\Projects\Nodejs Projects\api-server\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:317:13)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:188:7)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:214:15)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:219:13
+[info] 2023-08-18 17:08:57 => Server running in development on port 7777 	 
+    at Logger.info (E:\Projects\Nodejs Projects\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (E:\Projects\Nodejs Projects\api-server\server.js:49:10)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 2023-08-18 17:09:01 => Error: Not Found - /user
+    at notFound (E:\Projects\Nodejs Projects\api-server\middleware\errorMiddleware.js:4:17)
+    at Layer.handle [as handle_request] (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:317:13)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (E:\Projects\Nodejs Projects\api-server\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:317:13)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:188:7)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:214:15)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:219:13
+[info] 2023-08-18 18:27:14 => Server running in development on port 7777 	 
+    at Logger.info (E:\Projects\Nodejs Projects\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (E:\Projects\Nodejs Projects\api-server\server.js:49:10)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 2023-08-18 18:27:15 => Error: Not Found - /user
+    at notFound (E:\Projects\Nodejs Projects\api-server\middleware\errorMiddleware.js:4:17)
+    at Layer.handle [as handle_request] (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:317:13)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (E:\Projects\Nodejs Projects\api-server\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:317:13)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:188:7)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:214:15)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:219:13
+[error] 2023-08-18 18:27:38 => Error: Not Found - /user
+    at notFound (E:\Projects\Nodejs Projects\api-server\middleware\errorMiddleware.js:4:17)
+    at Layer.handle [as handle_request] (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:317:13)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (E:\Projects\Nodejs Projects\api-server\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:317:13)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:188:7)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:214:15)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:219:13
+[info] 2023-08-18 18:28:43 => Server running in development on port 7777 	 
+    at Logger.info (E:\Projects\Nodejs Projects\api-server\utils\Logger.js:6:46)
+    at Object.<anonymous> (E:\Projects\Nodejs Projects\api-server\server.js:49:10)
+    at Module._compile (node:internal/modules/cjs/loader:1126:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
+    at Module.load (node:internal/modules/cjs/loader:1004:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:839:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47
+[error] 2023-08-18 18:28:55 => Error: Not Found - /user
+    at notFound (E:\Projects\Nodejs Projects\api-server\middleware\errorMiddleware.js:4:17)
+    at Layer.handle [as handle_request] (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:317:13)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (E:\Projects\Nodejs Projects\api-server\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:317:13)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:188:7)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:214:15)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:219:13
+[error] 2023-08-18 18:39:04 => Error: Not Found - /user/list
+    at notFound (E:\Projects\Nodejs Projects\api-server\middleware\errorMiddleware.js:4:17)
+    at Layer.handle [as handle_request] (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:317:13)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (E:\Projects\Nodejs Projects\api-server\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:317:13)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Projects\Nodejs Projects\api-server\node_modules\express\lib\router\index.js:275:10)
+    at cors (E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:188:7)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:224:17
+    at originCallback (E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:214:15)
+    at E:\Projects\Nodejs Projects\api-server\node_modules\cors\lib\index.js:219:13

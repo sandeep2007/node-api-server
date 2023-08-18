@@ -1,0 +1,38 @@
+{
+  "name": "node-api-server",
+  "version": "1.0.0",
+  "description": "NodeJs API Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development nodemon server.js",
+    "start:staging": "NODE_ENV=staging node server.js",
+    "start:production": "NODE_ENV=production node server.js"
+  },
+  "keywords": [
+    "REST",
+    "NodeJs",
+    "Express",
+    "MySql"
+  ],
+  "author": "Sandeep Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
+    "dateformat": "^3.0.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.2.0",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "multer": "^1.4.4",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3"
+  }
+}
