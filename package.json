@@ -5,9 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_ENV=development nodemon server.js",
-    "start:staging": "NODE_ENV=staging node server.js",
-    "start:production": "NODE_ENV=production node server.js"
+    "start": "NODE_ENV=./environments/development.env nodemon server.js",
+    "start:staging": "NODE_ENV=./environments/staging.env nodemon server.js",
+    "start:production": "NODE_ENV=./environments/production.env nodemon server.js"
   },
   "keywords": [
     "REST",
