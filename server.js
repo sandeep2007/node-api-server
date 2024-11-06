@@ -1,7 +1,3 @@
-require("dotenv").config({
-  path: process.env.NODE_ENV,
-});
-
 const express = require("express");
 const cors = require("cors");
 const { notFound, errorHandler } = require("./middleware/errorMiddleware");
@@ -13,15 +9,13 @@ const router = require("./config/router");
 const Logger = require("./utils/Logger");
 
 const app = express();
-app.use(cors());
-
-// app.use(
-//   cors({
-//     origin: "http://localhost",
-//     methods: "GET,POST,PATCH,PUT,DELETE",
-//     credentials: true,
-//   })
-// );
+app.use(
+  cors({
+    origin: "http://localhost",
+    methods: "GET,POST,PATCH,PUT,DELETE",
+    credentials: true,
+  })
+);
 
 app.use(express.json());
 
