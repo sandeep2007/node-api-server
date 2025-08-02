@@ -5,9 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "dotenv -e ./environments/development.env nodemon server.js",
-    "start:staging": "dotenv -e ./environments/staging.env nodemon server.js",
-    "start:production": "dotenv -e ./environments/production.env nodemon server.js"
+    "start": "dotenv -e ./environments/.env nodemon server.js"
   },
   "keywords": [
     "REST",

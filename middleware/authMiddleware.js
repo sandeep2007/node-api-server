@@ -73,21 +73,22 @@ const refresh = asyncHandler(async (req, res, next) => {
           decoded = jwt.verify(token, process.env.JWT_REFRESH_SECRET);
         } catch (error) {
           Logger.info(error.message);
-          sendError(res, 403, new Error(`Not authorized, Token expired`));
+          sendError(res, 401, new Error(`Not authorized, Token expired`));
         }
+        const deviceToken = req.headers["device-token"];
         res.send({
           tokens: {
             accessToken: generateToken(decoded.id),
-            refreshToken: await generateRefreshToken(decoded.id),
+            refreshToken: await generateRefreshToken(decoded.id, deviceToken),
           },
         });
       } else {
-        Logger.info(`token deleted`);
-        sendError(res, 403, new Error(`token deleted`));
+        Logger.info(`token not found`);
+        sendError(res, 401, new Error(`token not found`));
       }
     } catch (error) {
       Logger.error(error);
-      sendError(res, 403, new Error(`Not authorized, ${error.message}`));
+      sendError(res, 401, new Error(`Not authorized, ${error.message}`));
     }
   }
 

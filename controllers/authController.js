@@ -6,7 +6,10 @@ const {
   generateRefreshToken,
   generateDeviceToken,
 } = require("../utils/generateToken");
-const { createDeviceToken } = require("../models/tokenModel");
+const {
+  createDeviceToken,
+  linkDeviceTokenWithUser,
+} = require("../models/tokenModel");
 const { userLogin, userRegister } = require("../models/authModel");
 const { getUserById } = require("../models/userModel");
 const Logger = require("../utils/Logger");
@@ -19,10 +22,11 @@ const login = asyncHandler(async (req, res) => {
     const user = await getUserById(userAuth.id);
 
     if (user) {
+      const deviceToken = req.headers["device-token"];
       const payload = Object.assign(user, {
         tokens: {
           accessToken: generateToken(user.id),
-          refreshToken: await generateRefreshToken(user.id),
+          refreshToken: await generateRefreshToken(user.id, deviceToken),
         },
       });
       res.send(payload);
@@ -51,10 +55,11 @@ const register = asyncHandler(async (req, res) => {
     const user = await getUserById(userId);
 
     if (user) {
+      const deviceToken = req.headers["device-token"];
       const payload = Object.assign(user, {
         tokens: {
           accessToken: generateToken(user.id),
-          refreshToken: await generateRefreshToken(user.id),
+          refreshToken: await generateRefreshToken(user.id, deviceToken),
         },
       });
       res.send(payload);
@@ -76,7 +81,6 @@ const deviceToken = asyncHandler(async (req, res) => {
   data.user_agent = currentUa;
   data.remote_ip =
     req.headers["x-forwarded-for"] || req.socket.remoteAddress || null;
-  data.user_id = null;
   data = JSON.stringify(data);
 
   const deviceToken = await createDeviceToken({

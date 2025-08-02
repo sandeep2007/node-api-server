@@ -11,7 +11,7 @@ const { checkUserColumn } = require("./userModel");
 
 const userLogin = async (userName, password) => {
   const [results] = await conn.query(
-    `select id,password from pr_users where email=?`,
+    `select id,password from ${process.env.USERS_TABLE} where email=?`,
     [userName]
   );
 
@@ -48,7 +48,7 @@ const userRegister = async (params) => {
   }
 
   const [result] = await conn.query(
-    `insert into pr_users(name,lname,email,password,phone,uniq_key,date_created,status) values(?,?,?,?,?,?,?,?)`,
+    `insert into ${process.env.USERS_TABLE}(name,lname,email,password,phone,uniq_key,date_created,status) values(?,?,?,?,?,?,?,?)`,
     [
       params.name,
       params.lname,

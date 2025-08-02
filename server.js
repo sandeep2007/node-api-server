@@ -22,12 +22,8 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.type("html");
   res.send(`<div style="margin:-8px;width:100vw;
-    height:100vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    background:#000">
-    <h1 style="color:#fff">It's Works!</h1>
+    height:100vh;">
+    <p style="padding:8px">API Server running...</p>
     </div>`);
 });
 
