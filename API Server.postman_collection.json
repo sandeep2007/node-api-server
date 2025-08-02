@@ -1,0 +1,354 @@
+{
+	"info": {
+		"_postman_id": "ac741ad4-8077-4aed-9180-cadd971a6d24",
+		"name": "API Server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5523961"
+	},
+	"item": [
+		{
+			"name": "/auth/deviceToken",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.collectionVariables.set('DEVICE_TOKEN', pm.response.json().deviceToken)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "{{API_KEY}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{URL}}/api/v1/auth/deviceToken",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"auth",
+						"deviceToken"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/auth/register",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"try{\r",
+							"pm.collectionVariables.set(\"ACCESS_TOKEN\", pm.response.json().tokens.accessToken)\r",
+							"pm.collectionVariables.set(\"REFRESH_TOKEN\", pm.response.json().tokens.refreshToken)\r",
+							"}\r",
+							"catch(error){}\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "{{API_KEY}}",
+						"type": "text"
+					},
+					{
+						"key": "device-token",
+						"value": "{{DEVICE_TOKEN}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Admin",
+							"type": "text"
+						},
+						{
+							"key": "lname",
+							"value": "User",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "admin@example.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Admin@02",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "1234567890",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{URL}}/api/v1/auth/register",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"auth",
+						"register"
+					]
+				},
+				"description": "User registration"
+			},
+			"response": []
+		},
+		{
+			"name": "auth/login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"try{\r",
+							"pm.collectionVariables.set(\"ACCESS_TOKEN\", pm.response.json().tokens.accessToken)\r",
+							"pm.collectionVariables.set(\"REFRESH_TOKEN\", pm.response.json().tokens.refreshToken)\r",
+							"}\r",
+							"catch(error){}"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "{{API_KEY}}",
+						"type": "text"
+					},
+					{
+						"key": "device-token",
+						"value": "{{DEVICE_TOKEN}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "admin@example.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Admin@02",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{URL}}/api/v1/auth/login",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/auth/refresh",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"try{\r",
+							"pm.collectionVariables.set(\"ACCESS_TOKEN\", pm.response.json().tokens.accessToken)\r",
+							"pm.collectionVariables.set(\"REFRESH_TOKEN\", pm.response.json().tokens.refreshToken)\r",
+							"}\r",
+							"catch(error){}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "{{API_KEY}}",
+						"type": "text"
+					},
+					{
+						"key": "device-token",
+						"value": "{{DEVICE_TOKEN}}",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{REFRESH_TOKEN}}",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "{{URL}}/api/v1/auth/refresh",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"auth",
+						"refresh"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/user",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"if(pm.response.code === 401){\r",
+							"    pm.sendRequest({\r",
+							"    url: pm.collectionVariables.get('URL')+\"/api/v1/auth/refresh\",\r",
+							"    method: 'GET',\r",
+							"    header: {\r",
+							"        'Authorization':'Bearer '+pm.collectionVariables.get('REFRESH_TOKEN'),\r",
+							"        'x-api-key':pm.collectionVariables.get('API_KEY'),\r",
+							"        'device-token':pm.collectionVariables.get('DEVICE_TOKEN'),\r",
+							"        }\r",
+							"}, function (err, response) {\r",
+							"    console.log(response.json())\r",
+							"        if(!err){\r",
+							"            pm.collectionVariables.set('ACCESS_TOKEN', response.json().tokens.accessToken)\r",
+							"            pm.collectionVariables.set('REFRESH_TOKEN', response.json().tokens.refreshToken)\r",
+							"        }\r",
+							"        else{\r",
+							"            console.log(err)\r",
+							"        }\r",
+							"    });\r",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "{{API_KEY}}",
+						"type": "text"
+					},
+					{
+						"key": "device-token",
+						"value": "{{DEVICE_TOKEN}}",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{ACCESS_TOKEN}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{URL}}/api/v1/user",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"user"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "ACCESS_TOKEN",
+			"value": ""
+		},
+		{
+			"key": "REFRESH_TOKEN",
+			"value": ""
+		},
+		{
+			"key": "DEVICE_TOKEN",
+			"value": ""
+		},
+		{
+			"key": "API_KEY",
+			"value": ""
+		},
+		{
+			"key": "URL",
+			"value": ""
+		}
+	]
+}
