@@ -94,6 +94,8 @@ All configuration is loaded from `environments/.env`. Key variables:
 - `REFRESH_TOKEN_EXPIRY` — e.g., `365d`
 - `DATABASE_HOST`, `DATABASE_USERNAME`, `DATABASE_PASSWORD`, `DATABASE_NAME`
 - `DATABASE_TABLE_PREFIX` — optional prefix for table names
+- `DB_POOL_LIMIT` — optional MySQL pool size (default 10)
+- `DB_POOL_QUEUE_LIMIT` — optional pool queue limit (default 0 = unlimited)
 - Table names used by the app:
   - `DEVICE_TOKEN_TABLE` (default: `tokens`)
   - `REFRESH_TOKEN_TABLE` (default: `refresh_token`)
@@ -240,6 +242,7 @@ Import `API Server.postman_collection.json` and set the collection variables:
 ## Notes and Recommendations
 
 - Use a MySQL connection pool (`mysql2.createPool`) for production
+  - This project already uses pooling; tune with `DB_POOL_LIMIT` and `DB_POOL_QUEUE_LIMIT`.
 - Parameterize CORS and other runtime configs via env
 - Add rate limiting and `helmet` for security hardening
 - Extend request validation (email format, password policy)

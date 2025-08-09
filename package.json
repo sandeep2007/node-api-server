@@ -31,6 +31,8 @@
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.15",
     "uuid": "^8.3.2",
-    "winston": "^3.3.3"
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^5.0.0",
+    "file-stream-rotator": "^1.0.0"
   }
 }

@@ -1,45 +1,58 @@
-const { createLogger, transports, format } = require("winston");
-const dateFormat = require("dateformat");
+const winston = require("winston");
+const DailyRotateFile = require("winston-daily-rotate-file");
 
-const logger = createLogger({
+const logFormat = winston.format.combine(
+  winston.format.timestamp({ format: "YYYY-MM-DD HH:mm:ss" }),
+  winston.format.errors({ stack: true }),
+  winston.format.json()
+);
+
+const logger = winston.createLogger({
+  level: process.env.LOG_LEVEL || "info",
+  format: logFormat,
+  defaultMeta: {
+    service: "node-api-server-logger",
+    pid: process.pid,
+    hostname: require("os").hostname(),
+  },
   transports: [
-    new transports.File({
-      filename: "logs",
-      level: "silly",
-      format: format.combine(
-        format.timestamp(),
-        format.printf(
-          (info) =>
-            `[${info.level}] ${dateFormat(
-              new Date(info.timestamp),
-              "yyyy-mm-dd HH:MM:ss"
-            )} => ${info.message}`
-        )
+    // Console transport
+    new winston.transports.Console({
+      format: winston.format.combine(
+        winston.format.colorize(),
+        winston.format.simple()
       ),
     }),
-    new transports.File({
-      filename: "error",
+
+    // Rotating file transport for all logs
+    new DailyRotateFile({
+      filename: "logs/application-%DATE%.log",
+      datePattern: "YYYY-MM-DD",
+      maxSize: "20m",
+      maxFiles: "14d",
+    }),
+
+    // Separate file for errors
+    new DailyRotateFile({
+      filename: "logs/error-%DATE%.log",
+      datePattern: "YYYY-MM-DD",
       level: "error",
-      format: format.combine(format.timestamp(), format.simple()),
+      maxSize: "20m",
+      maxFiles: "30d",
+    }),
+
+    // Trading-specific logs
+    new DailyRotateFile({
+      filename: "logs/trading-%DATE%.log",
+      datePattern: "YYYY-MM-DD",
+      maxSize: "50m",
+      maxFiles: "90d",
+      format: winston.format.combine(
+        winston.format.timestamp(),
+        winston.format.json()
+      ),
     }),
   ],
 });
-
-if (process.env.NODE_ENV !== "production") {
-  logger.add(
-    new transports.Console({
-      format: format.combine(
-        format.timestamp(),
-        format.printf(
-          (info) =>
-            `[${info.level}] ${dateFormat(
-              new Date(info.timestamp),
-              "yyyy-mm-dd HH:MM:ss"
-            )} => ${info.message.split("\t")[0]}`
-        )
-      ),
-    })
-  );
-}
 
 module.exports = logger;

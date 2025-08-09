@@ -1,30 +1,47 @@
 const mysql = require("mysql2");
 const { dbConfig } = require("../config/database");
 
-const config = dbConfig().mysql.default;
+// Base config from env; do not mutate
+const baseConfig = dbConfig().mysql.default;
 
 class Database {
   constructor() {
-    this.connection = null;
+    this.pool = null;
   }
-  connect(external_config) {
-    if (external_config) {
-      config = external_config;
-    }
-    this.connection = mysql.createConnection(config);
+
+  // Initialize a connection pool. Keeps method signature for backward compatibility.
+  connect(externalConfig) {
+    const poolConfig = externalConfig || baseConfig;
+
+    // Apply sensible pool defaults; allow override via env
+    const connectionLimit = Number(process.env.DB_POOL_LIMIT || 10);
+    const queueLimit = Number(process.env.DB_POOL_QUEUE_LIMIT || 0);
+
+    this.pool = mysql.createPool({
+      ...poolConfig,
+      waitForConnections: true,
+      connectionLimit,
+      queueLimit,
+    });
     return this;
   }
+
+  // Query using the pool; returns [rows, fields] to match existing callers
   query(sql, args) {
     return new Promise((resolve, reject) => {
-      this.connection.query(sql, args, (err, rows, fields) => {
+      if (!this.pool) return reject(new Error("MySQL pool is not initialized"));
+      this.pool.query(sql, args, (err, rows, fields) => {
         if (err) return reject(err);
         resolve([rows, fields]);
       });
     });
   }
+
+  // Gracefully end the pool
   close() {
     return new Promise((resolve, reject) => {
-      this.connection.end((err) => {
+      if (!this.pool) return resolve(null);
+      this.pool.end((err) => {
         if (err) return reject(err);
         resolve(null);
       });
