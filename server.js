@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const { notFound, errorHandler } = require("./middleware/errorMiddleware");
-const { initializeDataSource } = require("./config/database");
+const { initializeDataSource, getConnection } = require("./config/database");
 
 initializeDataSource();
 
@@ -19,7 +19,7 @@ app.use(
 
 app.use(express.json());
 
-app.get("/", (req, res) => {
+app.get("/", (_, res) => {
   res.type("html");
   res.send(`<div style="margin:-8px;width:100vw;
     height:100vh;">
@@ -38,3 +38,20 @@ app.listen(
   PORT,
   Logger.info(`Server running in ${process.env.NODE_ENV} on port ${PORT}`)
 );
+
+// Graceful shutdown: close DB pool
+const gracefulShutdown = async () => {
+  try {
+    const db = getConnection();
+    if (db && typeof db.close === "function") {
+      await db.close();
+    }
+  } catch (err) {
+    Logger.error("Error during DB pool shutdown", err);
+  } finally {
+    process.exit(0);
+  }
+};
+
+process.on("SIGINT", gracefulShutdown);
+process.on("SIGTERM", gracefulShutdown);

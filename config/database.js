@@ -37,7 +37,7 @@ const initializeDataSource = () => {
 
 const getConnection = (connectionName) => {
   if (connectionName === "default" || connectionName === undefined) {
-    return defaultMySQLConn0;
+    return global.defaultMySQLConn0;
   } else {
     return null;
   }
